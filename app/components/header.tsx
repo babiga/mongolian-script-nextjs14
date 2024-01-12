@@ -12,8 +12,8 @@ export default function Header() {
             </button>
         </div>
         <div>
-            <GitHub size={28} color="white" />
-            <Link href={"https://www.mogulic.com"}><Globe size={28} color="white" /></Link>
+            <GitHub href="https://github.com/babiga/mongolian-script-nextjs14" size={28} color="white" />
+            <Link href="https://www.mogulic.com"><Globe size={28} color="white" /></Link>
         </div>
     </div>
 }
