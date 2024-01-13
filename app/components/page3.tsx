@@ -6,7 +6,7 @@ export default function Page3() {
         <div className="hero" style={{ backgroundImage: "url(" + "/heroimg3.jpg" + ")" }}>
             <div className="container">
                 <button className="modern-btn-1">ᠰᠠᠭᠰᠤᠯᠬᠤ <ShoppingCart size={14} strokeWidth={3} /></button>
-                <button className="modern-btn-2"><UserPlus size={18} style={{ marginBottom: '15px' }} />ᠪᠦᠷᠢᠳᠬᠡᠭᠦᠯᠬᠦ</button>
+                <button className="modern-btn-2"><UserPlus size={18}/>ᠪᠦᠷᠢᠳᠬᠡᠭᠦᠯᠬᠦ</button>
                 <button className="modern-btn-3">ᠨᠡᠪᠲᠡᠷᠡᠬᠦ</button>
                 <button className="modern-btn-4">ᠪᠦᠷᠢᠳᠬᠡᠭᠦᠯᠬᠦ</button>
             </div>

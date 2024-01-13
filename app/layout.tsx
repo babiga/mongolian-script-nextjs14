@@ -6,7 +6,11 @@ export const metadata: Metadata = {
   description: 'Mogulic Labs | Mongolian Script - Монгол бичиг',
   openGraph: {
     title: 'Mogulic Labs | Mongolian Script - Монгол бичиг',
-    description: 'Mogulic Labs | Mongolian Script - Монгол бичиг'
+    description: 'Mogulic Labs | Mongolian Script - Монгол бичиг',
+    images:{
+      url:"https://labs.mogulic.com/opengraph-image.png",
+      alt:"Labs Mogulic OG image"
+    }
   },
 
 }
