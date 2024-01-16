@@ -5,10 +5,10 @@ export default function Header() {
     return <div className="header">
         <div>
             <button className="btn" disabled>
-                ᠨᠡᠪᠲᠡᠷᠡᠬᠦ
+                <span>ᠨᠡᠪᠲᠡᠷᠡᠬᠦ</span>
             </button>
             <button className="btn dark" disabled>
-                ᠪᠦᠷᠢᠳᠬᠡᠭᠦᠯᠬᠦ
+                <span>ᠪᠦᠷᠢᠳᠬᠡᠭᠦᠯᠬᠦ</span>
             </button>
         </div>
         <div>

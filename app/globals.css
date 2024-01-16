@@ -115,6 +115,7 @@ body {
   color: white;
   padding: 30px 15px;
   font-size: 1.5vw;
+  overflow: hidden;
 }
 
 .page .hero .container .profile {
@@ -153,12 +154,6 @@ body {
   user-select: none;
 }
 
-@supports (-webkit-touch-callout: none) {
-  .btn {
-    transform: scale(0.5) rotate(90deg);
-  }
-}
-
 .dark {
   background: rgba(68, 68, 68, 0.80);
 }
@@ -174,6 +169,12 @@ body {
   letter-spacing: 10px;
   top: 5%;
   mix-blend-mode: difference;
+}
+
+button * {
+  writing-mode: vertical-lr;
+  -webkit-writing-mode: vertical-lr;
+  text-orientation: sideways-right;
 }
 
 /* Жижиг дэлгэц */
@@ -245,18 +246,6 @@ body {
   align-items: center;
   justify-content: center;
   gap: 10px;
-}
-
-@supports (-webkit-touch-callout: none) {
-  .modern .hero {
-    justify-content: center;
-  }
-  .modern .container {
-   transform: scale(0.6) rotate(90deg);
-  }
-  .modern button svg {
-    transform: rotate(-90deg);
-  }
 }
 
 .modern-btn-1 {
