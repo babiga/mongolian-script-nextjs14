@@ -72,12 +72,19 @@ body {
 
 .header div {
   display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
   gap: 30px;
   margin: 30px 0px;
 }
 
 .header div svg {
   cursor: pointer;
+}
+
+.header div a {
+  display: flex;
 }
 
 /* Үндсэн */
@@ -125,7 +132,7 @@ body {
 }
 
 .page .hero .container .profile p {
-  font-size: 16px;
+  font-size: 70%;
 }
 
 .page .text {
